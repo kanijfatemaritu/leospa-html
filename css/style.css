@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 27px;
+  font-family: "rufina", sans-serif;
+  color: #263a41;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 27px;
+  font-family: "Roboto", sans-serif;
+  color: #888;
+}
+
+a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 45px;
+  font-family: "Roboto", sans-serif;
+  color: #263a41;
+}
+/*# sourceMappingURL=style.css.map */
