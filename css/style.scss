@@ -35,3 +35,18 @@ a{
     font-family: $primary_font;
     color: $primary_color; 
 }
+.btn-leospa {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 27px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 5px 30px;
+    font-family: $primary_font;
+    color: $forth_color;
+    background-color: $sixth_color;
+    &:hover {
+        background-color: $tertiary_color;
+        color: $forth_color;
+    }
+}

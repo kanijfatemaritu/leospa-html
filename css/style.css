@@ -27,4 +27,21 @@ a {
   font-family: "Roboto", sans-serif;
   color: #263a41;
 }
+
+.btn-leospa {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 27px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 5px 30px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  background-color: #1e2528;
+}
+
+.btn-leospa:hover {
+  background-color: #ff817e;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
