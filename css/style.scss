@@ -7,6 +7,7 @@ $tertiary_color: #ff817e;
 $forth_color: #fff;
 $fifth_color: #555;
 $sixth_color: #1e2528;
+$seventh_color:#fcf5ee; 
 
 // write your style
 body {
@@ -69,8 +70,58 @@ a{
             font-size: 14px;
             line-height: 45px;
             font-weight: 500;
-            font-family: roboto;
+            font-family: $primary_font;
         }
     }
     
+}
+//start leospa-banner
+.leospa-banner {
+    margin-bottom: 50px;
+    text-align: left;
+    .banner-title {
+        .sub-title {
+            font-size: 15px;
+            line-height: 72px;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-family: $secondary_font;
+            color: $tertiary_color;
+        }
+        .title {
+            font-size: 60px;
+            line-height: 75px;
+            font-weight: bold;
+            font-family: $secondary_font;
+            color: $sixth_color;
+        }
+    }
+    .banner-content {
+        content {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 27px;
+            font-family: $primary_font;
+            color: $secondary_color;
+        }
+    }
+    .banner-button {
+        .btn-leospa {
+            border-radius: 0;
+            i {
+                margin-left: 7px;
+                font-size: 12px;
+            }
+        }
+        .video-btn {
+            i {
+                background-color: $seventh_color;
+                margin: 0 5px 0 20px;
+                padding: 10px;
+                border-radius: 50%;
+                color: $tertiary_color;
+            }
+        }
+        
+    }
 }
